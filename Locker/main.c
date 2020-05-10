@@ -18,6 +18,7 @@ int main() {
 	//Använd användarnamnet "Oscar" 
 	//och lösenordet "kalle" för att logga
 	//in som superuser
+
 	do {
 		printf("\nVar vänlig och logga in\n");
 		activeUserIndex = findUser(fileLocker, nrOf);
